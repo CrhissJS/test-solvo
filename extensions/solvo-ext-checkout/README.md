@@ -20,6 +20,30 @@ Key: "productInfoMessage"
 Value: "Limited offer! 50% Discount"
 ```
 
+### 🛠️ Required Setup for Metafields
+
+To properly use this extension, follow these steps in your Shopify Admin:
+
+1. Create a new Metafield definition:
+
+- Go to Settings → Custom data → Products → Add definition
+- Name: Product Info Message
+- Namespace and key: custom.productInfoMessage
+- Type: Single line text
+
+2. Enable Storefront API access for this definition:
+
+- While editing the metafield definition, scroll to the Access section
+  -Ensure "Storefronts" access is enabled
+
+3. Assign the message per product:
+
+- Go to Products → Select a product
+- Scroll to Metafields section at the bottom
+- Enter your custom message under Product Info Message
+
+This value will now appear dynamically in the checkout and thank-you page as a contextual message.
+
 ---
 
 ## 🖼️ Visual Demo
