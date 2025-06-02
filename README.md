@@ -1,8 +1,18 @@
 # Solvo Global Shopify Extension Suite 🛍️
 
-This monorepo contains the **complete migration and enhancement** of legacy tracking and UI logic from the Shopify Order Status Page and Post Purchase Page to modern Checkout Extensibility extensions using React + TypeScript.
+This monorepo contains the **complete migration and enhancement** of legacy tracking and UI logic from the Shopify Order Status Page and Post Purchase Page to modern Checkout Extensibility extensions using React + TypeScript. It includes three Checkout UI extensions built using the Shopify CLI
 
 > 🧪 Built as a technical challenge for **Solvo Global**.
+
+---
+
+## 📦 Extensions Developed
+
+- **Checkout Page + Thank You Page Extension** (`solvo-ext-checkout`)
+- **Post Purchase Extension** (`solvo-ext-postpurchase`)
+- **Order Status Extension** (`solvo-ext-orderstatus`)
+
+Each extension is modular, well-documented, and simulates functionality from legacy Shopify script integrations.
 
 ---
 
@@ -49,7 +59,12 @@ Make sure you have:
 - Store with Checkout Extensibility enabled
 - Store connected to the app via Shopify CLI
 
-## Note: For this project the used store is `https://prueba-solvo.myshopify.com/` and the password is `solvoglobal`.
+## 🔗 Live Demo Store
+
+- **URL**: [https://prueba-solvo.myshopify.com](https://prueba-solvo.myshopify.com)
+- **Password**: `xxxxxx`
+
+---
 
 ## 📁 Project Structure
 
@@ -63,7 +78,8 @@ solvo-test/
 └── README.md ← (this file)
 ```
 
-Each folder includes its own extension logic, following a modular architecture with:
+Each extension contains its own `README.md` with structure, usage and visual examples.
+And each folder includes its own extension logic, following a modular architecture with:
 
 - `components/`
 - `services/`
