@@ -1,0 +1,13 @@
+api_version = "2025-04"
+
+[[extensions]]
+name = "solvo-ext-orderstatus"
+handle = "solvo-ext-orderstatus"
+type = "ui_extension"
+
+[[extensions.targeting]]
+module = "./src/OrderStatusBlock.tsx"
+target = "customer-account.order-status.block.render"
+
+[extensions.capabilities]
+api_access = true
