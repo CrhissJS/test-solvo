@@ -1,0 +1,9 @@
+api_version = "2025-04"
+
+[[extensions]]
+name = "solvo-ext-postpurchase"
+handle = "solvo-ext-postpurchase"
+type = "checkout_post_purchase"
+
+[capabilities]
+api_access = true
