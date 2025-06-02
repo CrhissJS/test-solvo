@@ -61,6 +61,8 @@ Make sure you have:
 
 ## 🔗 Live Demo Store
 
+![Store Preview](./docs/assets/store.PNG)
+
 - **URL**: [https://prueba-solvo.myshopify.com](https://prueba-solvo.myshopify.com)
 - **Password**: `solvoglobal`
 
