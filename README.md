@@ -62,7 +62,7 @@ Make sure you have:
 ## 🔗 Live Demo Store
 
 - **URL**: [https://prueba-solvo.myshopify.com](https://prueba-solvo.myshopify.com)
-- **Password**: `xxxxxx`
+- **Password**: `solvoglobal`
 
 ---
 
