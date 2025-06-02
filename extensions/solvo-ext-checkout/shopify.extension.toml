@@ -1,0 +1,23 @@
+api_version = "2025-04"
+
+[[extensions]]
+name = "solvo-ext-checkout"
+handle = "solvo-ext-checkout"
+type = "ui_extension"
+
+[[extensions.targeting]]
+module = "./src/Checkout.tsx"
+target = "purchase.thank-you.cart-line-item.render-after"
+export = "thankYouBlock"
+
+[[extensions.targeting]]
+module = "./src/Checkout.tsx"
+target = "purchase.checkout.cart-line-item.render-after"
+export = "checkoutBlock"
+
+[[extensions.metafields]]
+namespace = "custom"
+key = "productInfoMessage"
+
+[extensions.capabilities]
+api_access = true
