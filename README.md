@@ -103,6 +103,25 @@ And each folder includes its own extension logic, following a modular architectu
 
 ---
 
+## 💻 Technologies Used
+
+This project was built using the following technologies and tools:
+
+- **Shopify UI Extensions API** – to build custom components for Checkout, Post Purchase, and Order Status.
+- **React** – main UI framework for building interactive components.
+- **TypeScript** – for type safety and cleaner code architecture.
+- **Shopify CLI** – for extension generation, development, and deployment.
+- **GraphQL** – used for querying product metafields from the Shopify Storefront API.
+- **AJAX / Fetch API** – to simulate requests to external services (e.g., tracking endpoints).
+- **Custom Cookie Parsing** – to extract values from browser cookies for tracking.
+- **Custom Hashing Algorithm** – using `cyrb53` for fallback order identifiers.
+- **Framer Motion** – for simple animations in satisfaction form UI.
+- **Modular Folder Structure** – using `components`, `services`, `utils`, `types`, and `constants`.
+
+These technologies ensure the project is maintainable, scalable, and production-ready.
+
+---
+
 ## 📘 Developer Notes
 
 - The `mockCheckout` object simulates real checkout data, as Shopify hasn’t yet exposed full checkout context in Order Status extensions.
